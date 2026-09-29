@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thushara RP | Personal Page</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: "Trebuchet MS", sans-serif;
+      background: linear-gradient(135deg, #ffd6f6, #d8c7ff, #c7f5ff);
+      color: #34234a;
+      overflow-x: hidden;
+    }
+
+    /* Decorative background */
+    body::before {
+      content: "🌸 🌼 🦄 🌈 🌺 🌷";
+      position: fixed;
+      top: 10px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      font-size: 2rem;
+      letter-spacing: 25px;
+      opacity: 0.35;
+      pointer-events: none;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 950px;
+      margin: 70px auto 30px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(12px);
+      border: 2px solid rgba(255, 255, 255, 0.8);
+      border-radius: 30px;
+      padding: 45px;
+      text-align: center;
+      box-shadow: 0 15px 40px rgba(89, 48, 120, 0.25);
+    }
+
+    .unicorn {
+      font-size: 90px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-12px);
+      }
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #8e44ad;
+      margin: 10px 0;
+    }
+
+    .rainbow {
+      font-size: 2.5rem;
+      margin: 10px 0 25px;
+    }
+
+    .intro {
+      font-size: 1.15rem;
+      line-height: 1.8;
+      margin-bottom: 30px;
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-top: 25px;
+    }
+
+    .box {
+      padding: 25px;
+      border-radius: 20px;
+      background: linear-gradient(135deg, #fff0fb, #eee4ff);
+      box-shadow: 0 8px 20px rgba(100, 60, 130, 0.12);
+      transition: transform 0.3s;
+    }
+
+    .box:hover {
+      transform: translateY(-7px);
+    }
+
+    .box h2 {
+      color: #7d3c98;
+      margin-bottom: 10px;
+    }
+
+    .movie {
+      background: linear-gradient(135deg, #24163b, #49305f);
+      color: white;
+    }
+
+    .movie h2 {
+      color: #ffb6f9;
+    }
+
+    .movie-icon {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .flowers {
+      margin-top: 30px;
+      font-size: 2rem;
+      letter-spacing: 15px;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.95rem;
+      color: #684477;
+    }
+
+    @media (max-width: 650px) {
+      .card {
+        padding: 30px 20px;
+      }
+
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      .info {
+        grid-template-columns: 1fr;
+      }
+
+      .unicorn {
+        font-size: 70px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+    <section class="card">
+
+      <div class="unicorn">🦄</div>
+
+      <h1>Hi, I'm Thushara RP</h1>
+
+      <div class="rainbow">🌈✨🌈</div>
+
+      <p class="intro">
+        Welcome to my little magical corner! 💜<br>
+        I am a <strong>2nd Year B.E. student</strong> at
+        <strong>Jain Institute of Technology</strong>.
+        I love exploring new ideas, enjoying magical unicorn themes,
+        and getting lost in exciting stories.
+      </p>
+
+      <div class="info">
+
+        <div class="box">
+          <h2>🎓 About Me</h2>
+          <p>
+            <strong>Name:</strong> Thushara RP<br>
+            <strong>Year:</strong> 2nd Year B.E.<br>
+            <strong>College:</strong> Jain Institute of Technology
+          </p>
+        </div>
+
+        <div class="box movie">
+          <div class="movie-icon">🎬 🔍</div>
+          <h2>My Favorite Genre</h2>
+          <p>
+            I enjoy watching <strong>suspense thriller movies</strong> —
+            especially stories filled with mystery, unexpected twists,
+            clues, and thrilling moments! 🕵️‍♀️
+          </p>
+        </div>
+
+      </div>
+
+      <div class="flowers">
+        🌸 🌷 🌼 🌺 🌻
+      </div>
+
+      <footer>
+        Made with 💜, rainbows 🌈 & a little unicorn magic 🦄
+      </footer>
+
+    </section>
+  </main>
+
+</body>
+</html>
